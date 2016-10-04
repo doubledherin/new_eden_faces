@@ -23,11 +23,12 @@ echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse" 
 sudo apt-get update
 sudo apt-get install -y mongodb-org
 
-
 npm install --save-dev gulp
 
 npm install --save-dev nodemon
-
+npm install --save-dev eslint eslint-plugin-html
+npm install --save-dev eslint-plugin-markdown
+npm install --save-dev eslint-config-airbnb
 cd /vagrant
 
 npm install
